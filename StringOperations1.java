@@ -5,7 +5,7 @@
   This program is part one of String Handling.
 */
 
-public class StringOperation1{
+public class StringOperations1{
     
     public static void main(String args[]) {
         
