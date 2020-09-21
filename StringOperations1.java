@@ -13,9 +13,6 @@ public class StringOperations1{
         stringLength();
         specialStrOperation();
         strConcatenation();
-        
-        
-        
     }
     
     public static void stringConstructor() {
@@ -56,7 +53,6 @@ public class StringOperations1{
         int age = 18;
         String longStr = "I am" + " really" + " happy at " + age;
         System.out.println(longStr);
-        
     }
     
 }
