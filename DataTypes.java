@@ -5,8 +5,6 @@ class DataTypes  {
 	booleanMethod();
         charMethod();
         integerMethod();
-		
-		
 	}
 	
 	public static void booleanMethod() {
@@ -22,8 +20,8 @@ class DataTypes  {
 	public static void charMethod() {
 	    
 	    char ch1, ch2;
-		ch1 = 88; //ASCII valule for X
-		ch2 = 'Y';
+	    ch1 = 88; //ASCII valule for X
+	    ch2 = 'Y';
 		
 		System.out.println("ch1 ASCII value is " + ch1 + " \nch2 value is " + ch2 );
 	}
