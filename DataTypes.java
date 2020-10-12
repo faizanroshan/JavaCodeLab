@@ -1,12 +1,23 @@
 
 class DataTypes  {
 	public static void main (String[] args) {
-		
+	
+	booleanMethod();
         charMethod();
         integerMethod();
 		
 		
 	}
+	
+	public static void booleanMethod() {
+	   
+		boolean bool = false;
+		System.out.println( "bool value is " + bool);
+		
+		bool = true;
+		System.out.println( "Updated bool value is " + bool );
+	}
+	
 	
 	public static void charMethod() {
 	    
@@ -15,12 +26,6 @@ class DataTypes  {
 		ch2 = 'Y';
 		
 		System.out.println("ch1 ASCII value is " + ch1 + " \nch2 value is " + ch2 );
-		
-		boolean bool = false;
-		System.out.println( "bool value is " + bool);
-		
-		bool = true;
-		System.out.println( "Updated bool value is " + bool );
 	}
 	
 	public static void integerMethod() {
