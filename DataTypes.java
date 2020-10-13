@@ -2,9 +2,10 @@
 class DataTypes  {
 	public static void main (String[] args) {
 	
-	booleanMethod();
+	    booleanMethod();
         charMethod();
         integerMethod();
+	    longMethod()
 	}
 	
 	public static void booleanMethod() {
@@ -23,12 +24,12 @@ class DataTypes  {
 	    ch1 = 88; //ASCII valule for X
 	    ch2 = 'Y';
 		
-		System.out.println("ch1 ASCII value is " + ch1 + " \nch2 value is " + ch2 );
+	    System.out.println("ch1 ASCII value is " + ch1 + " \nch2 value is " + ch2 );
 	}
 	
 	public static void integerMethod() {
 	    
-	    // Represent binary with a prefix 0b. 
+		// Represent binary with a prefix 0b. 
 	    
 	    int val1 = 0b1010;
 	    System.out.println( "Binary Value variable val1 = " + val1 );
@@ -52,5 +53,23 @@ class DataTypes  {
 	    
 	    double num = 123_123.123_123;
 	    System.out.println("Double value with underscores " + num );
+	}
+	
+	public static void longMethod() {
+	    
+	    int lightspeed;
+	    long days;
+	    long seconds;
+	    long distance;
+	    
+	    // approximate speed of light in miles per second
+	    lightspeed = 18600;
+	    days = 1000;
+	    seconds = days * 24 * 60 * 60;
+	    distance = lightspeed  * seconds;
+	    
+	    System.out.print("In " + days );
+	    System.out.print( " days light will travel about ");
+	    System.out.println(distance + " miles.");
 	}
 }
